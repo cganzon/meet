@@ -56,8 +56,6 @@ img {
 
 .hero-img-mobile {
     width: 414px;
-    /* min-width: 414px; */
-    /* max-width: 820px; */
     position: absolute;
     top: 0;
     left: 50%;
@@ -66,7 +64,6 @@ img {
 
 .hero-promo {
     width: 87.2%;
-    max-width: 482px;
     margin: 0 auto;
     margin-top: 48px;
     margin-bottom: 166px;
@@ -77,7 +74,6 @@ img {
     font-size: 40px;
     font-weight: var(--ff-black);
     line-height: 44px;
-    width: 10ch;
     margin: 0 auto;
     margin-bottom: 24px;
 }
@@ -242,6 +238,8 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
+    width: 87.2%;
+    margin: 0 auto;
 }
 
 .footer-title {
@@ -251,11 +249,10 @@ img {
     color: var(--white);
     margin-top: 92px;
     margin-bottom: 24px;
+
 }
 
 .footer-paragraph {
-    width: 87.2%;
-    margin: 0 auto;
     font-size: 18px;
     font-weight: var(--ff-medium);
     line-height: 26px;
