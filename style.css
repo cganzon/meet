@@ -121,27 +121,21 @@ img {
     padding: 1.028rem 1.637rem;
 }
 
-.accent {
-    position: relative;
-}
-
 .accent-one {
+    position: relative;
     margin-bottom: 79px;
 }
 
-.line {
+.line-one {
     height: 84px;
     border-left: 1px solid var(--gray);
     opacity: 0.25;
-}
-
-.line-one {
     position: absolute;
-    bottom: 39px;
     left: 50%;
+    bottom: 39px;
 }
 
-.number {
+.number-one {
     font-size: 16px;
     color: var(--gray);
     font-weight: var(--ff-black);
@@ -150,9 +144,9 @@ img {
     padding: 0.917rem 1.0265rem;
 }
 
-  /* ///////////////////// */
- /* Advertisement section */
-/* ///////////////////// */
+  /* //////////////// */
+ /* Meetings section */
+/* //////////////// */
 .meetings {
     width: 87.2%;
     margin: 0 auto;
@@ -194,4 +188,85 @@ img {
     font-weight: var(--ff-medium);
     line-height: 26px;
     color: var(--gray);
+}
+
+  /* ////// */
+ /* Footer */
+/* ////// */
+.accent-footer {
+    position: relative;
+    z-index: 999;
+}
+
+.line-two {
+    height: 84px;
+    border-left: 1px solid var(--gray);
+    opacity: 0.25;
+    position: absolute;
+    left: 50%;
+    bottom: 27px;
+}
+
+.number-two {
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: var(--ff-black);
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 50%;
+    background-color: var(--white);
+    padding: 0.917rem 0.941rem;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -77px;
+}
+
+.footer {
+    width: 100%;
+    height: 428px;
+    background: var(--teal);
+    position: relative;
+}
+
+.footer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+
+.footer-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: var(--ff-black);
+    line-height: 36px;
+    color: var(--white);
+    margin-top: 92px;
+    margin-bottom: 24px;
+}
+
+.footer-paragraph {
+    width: 87.2%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: var(--ff-medium);
+    line-height: 26px;
+    color: var(--white);
+    margin-bottom: 48px;
+}
+
+.btn-footer {
+    background-color: var(--purple);
+}
+
+.btn-footer .version {
+    color: var(--violet);
 }
