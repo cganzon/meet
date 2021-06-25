@@ -121,21 +121,27 @@ img {
     padding: 1.028rem 1.637rem;
 }
 
-.accent-one {
+.accent {
     position: relative;
+}
+
+.accent-one {
     margin-bottom: 79px;
 }
 
-.line-one {
+.line {
     height: 84px;
     border-left: 1px solid var(--gray);
     opacity: 0.25;
+}
+
+.line-one {
     position: absolute;
     bottom: 39px;
     left: 50%;
 }
 
-.number-one {
+.number {
     font-size: 16px;
     color: var(--gray);
     font-weight: var(--ff-black);
@@ -147,20 +153,45 @@ img {
   /* ///////////////////// */
  /* Advertisement section */
 /* ///////////////////// */
-.ad {
+.meetings {
     width: 87.2%;
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 176px;
 }
 
-.ad-images {
+.meetings-images {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+    margin-bottom: 64px;
 }
 
-.ad-image {
+.meetings-image {
     width: 100%;
     border-radius: 8px;
+}
+
+.meetings-subtitle{
+    font-size: 16px;
+    font-weight: var(--ff-black);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--teal);
+    margin-bottom: 24px;
+}
+
+.meetings-title {
+    font-size: 32px;
+    font-weight: var(--ff-black);
+    line-height: 36px;
+    color: var(--very-dark-blue);
+    margin-bottom: 32px;
+}
+
+.meetings-paragraph {
+    font-size: 16px;
+    font-weight: var(--ff-medium);
+    line-height: 26px;
+    color: var(--gray);
 }
