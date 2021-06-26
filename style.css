@@ -82,6 +82,7 @@ img {
     line-height: 44px;
     margin: 0 auto;
     margin-bottom: 24px;
+    max-width: 10ch;
 }
 
 .hero-paragraph {
@@ -91,6 +92,7 @@ img {
     line-height: 26px;
     margin: 0 auto;
     margin-bottom: 32px;
+    max-width: 45ch;
 }
 
 .btn-container {
@@ -101,26 +103,36 @@ img {
 }
 
 .btn-download {
-    background-color: var(--teal);
+    background: var(--teal);
     font-size: 16px;
     font-weight: var(--ff-black);
     color: #FFF;
     border-radius: 29px;
     padding: 1.028rem 2.275rem;
     margin-bottom: 16px;
+    transition: background-color 0.15s ease;
 }
 
 .btn-download .version {
     color: var(--aqua);
 }
 
+.btn-download:hover {
+    background-color: #71C0D4;
+}
+
 .btn-what {
     color: #FFF;
-    background-color: var(--purple);
+    background: var(--purple);
     font-size: 16px;
     font-weight: var(--ff-black);
     border-radius: 29px;
     padding: 1.028rem 1.637rem;
+    transition: background-color 0.15s ease;
+}
+
+.btn-what:hover {
+    background-color: #B18BDD;
 }
 
 .accent-one {
@@ -275,10 +287,15 @@ img {
 
 .btn-footer {
     background-color: var(--purple);
+    transition: background-color 0.15s ease;
 }
 
 .btn-footer .version {
     color: var(--violet);
+}
+
+.btn-footer:hover {
+    background-color: #B18BDD;
 }
 
 /* ///////////// */
